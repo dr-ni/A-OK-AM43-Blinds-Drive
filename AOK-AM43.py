@@ -31,7 +31,7 @@ import json
 
 #Variables
 config = configparser.ConfigParser() #Read ini file for meters
-inifilepath = "/A-OK_AM43_Blind_Drive/AOK-AM43.ini"
+inifilepath = "/home/pilot/A-OK-AM43-Blinds-Drive/AOK-AM43.ini"
 app = Flask(__name__)
 
 # AM43 Notification Identifiers
